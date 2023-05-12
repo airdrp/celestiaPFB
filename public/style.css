@@ -1,0 +1,143 @@
+
+body {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.generate {
+  
+  width: 1600px;
+  background-color: rgb(78, 78, 78);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.gen{
+  width: 100%;
+  max-width: 130px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #e49931;
+}
+.submit{
+  font-size: 20px;
+  width: 100%;
+  max-width: 200px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #13b248;
+
+}
+h2{
+  color: #ffff;
+}
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  padding: 40px;
+  background-color: #8daaaa;
+  border-radius: 10px;
+}
+
+form input {
+  width: 1000px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #393944;
+  color: #292a2c;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 5px 10px #2b3031;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  max-width: 1200px;
+  color: #edfef7;
+}
+ 
+
+
+
+/* Result styles */
+.success {
+  color: #3da9ff;
+}
+
+.failed {
+  color: #ff3d3d;
+}
+
+#result h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#result {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1600px;
+}
+
+
+#result pre {
+  width: 100%;
+  max-width: 800px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 10px 20px black;
+  overflow-y: scroll;
+}
+
+
+form input:focus {
+  outline: none;
+  background-color: #101010;
+  box-shadow: 0 10px 20px black;
+}
+
+
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+ 
+
+ 
+ 
+
