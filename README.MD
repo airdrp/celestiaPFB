@@ -1,6 +1,10 @@
 # Generator Pay For Blob Celestia
 
-Demo Link: http://64.226.122.45:6070/
+This tool allows you to submit a PayForBlob transaction on the Celestia blockchain using its UI.
+
+Notice: To ensure that this UI works properly, make sure to run the UI server on the Celestia node gateway server with port 26659 and sufficient balance.
+
+UI Celestia PFB demo site: http://64.226.122.45:6070/
 
 ## Step For Installation
 
