@@ -1,4 +1,4 @@
-# Generator Pay For Blob Celestia
+# Generator Pay For Blob Celestia UI
 
 This tool allows you to submit a PayForBlob transaction on the Celestia blockchain using its UI.
 
